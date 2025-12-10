@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:#fff;
+    font-family:'open sans',sans-serif ;                                                                  
+    margin: 10px;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-logo {
+    height: 35px;
+    margin-right: 20px;
+
+}
+.nav-left {
+    display: flex;
+    align-items: center;}
+    
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin-right: 22px;
+
+}
+.nav-links a {
+    text-decoration: none;
+    color: #0d1b3e;
+    font-size: 15px;
+
+
+}
+.nav2 a {
+  margin-right: 80px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 0;
+  right: 10px;
+}
+.header-login {
+   
+}
+.get-trello{
+    background:blue;
+    padding: 10px 16px;
+    color: white;
+    border-radius: 6px;
+}
+.p1{
+    margin-top: 60px;
+    background-color: #e8f1ff;
+
+    font-size: 15px;
+    padding: 18px 20px;
+}
+
+section{
+    background-color: aliceblue;
+    text-align: center;
+    color: black;
+    font-family:'Times New Roman', Times, serif;}
+
+
+.hero-text{
+
+    padding: 40px;
+    font-size: 42px;
+    line-height: 1.3;
+    margin-bottom: 18px;
+}
+.hero{
+    font-size: 22px;
+}
+.hero1{
+  font-size: 17px;  
+}
+
+.wrapper{
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+
+    background-color: #eee;
+}
+.slack-img{
+    height: auto;
+    max-width: 300px;
+
+}
+.slack-image{
+    max-width: 300px;
+    height: auto;
+}
+.button1{
+    background-color:#1193df;
+}
+
+
+.funy {
+    align-items:first baseline ;
+    padding-left: 0px;
+   
+    }
+.BB {
+    text-decoration: none;
+}
+
+
+
+.sec1 {
+     display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.sec2 {
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+.sec2 p {
+    left: auto;
+}
+
+
+.page-wrapper {
+ 
+    background-color: rgb(102, 102, 236);
+    padding: 20px;
+    width: 100%;
+}
+.card2 {
+  display: grid;
+  grid-template-rows:50% 50% ;
+  gap: 20px;
+   justify-content: center;
+   align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.subtitle {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.9;
+    max-width: 650px;
+    margin: 0 auto 30px auto;
+}
+.card{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color:white;
+    width: 1100px;height: 400px;  
+    margin: 20px;
+}
+
+.card-image{
+    height: auto;
+}
+
+
+
+.trello-section {
+    background-color: white;
+    width: 93%;
+    margin: 40px;
+    padding-top: 70px;
+    
+   
+}
+.sub{
+    background-color: white;
+    text-align: left;
+    justify-content:start;
+    border: solid 0;
+    margin-top: 6px;
+    padding-left: 100px;
+}
+
+.tag {
+    font-size: 13px;
+    font-weight: 600;text-align:left;
+    letter-spacing: 1px;
+    color: #6b7a89;
+    margin-bottom: 6px;
+}
+
+.heading {
+    text-align:left;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.well {
+    text-align: left;
+    justify-content: baseline;
+   
+    font-size: 22px;
+    color: #050d16;
+}
+
+.cards {
+    display: flex;
+    margin-top: 80px;
+     background: white;
+    justify-content:space-between;
+
+}
+
+.sell {
+   
+    border-radius: 14px;
+    padding: 30px;
+    display: grid;
+    font-size: 18px;
+    gap: 40px;
+}
+
+.west:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.icon {
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+
+.west h3 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    color: #092440;
+}
+
+.west p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #42526e;
+    margin-bottom: 22px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 1px solid #0747A6;
+    background: white;
+    color: #0747A6;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: #0747A6;
+    color: #fff;
+}
+
+
+.btn{
+    background-color: #1193df;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo-section {
+    padding: 40px 0 20px;
+    max-width: 100%;
+}
+
+.logo-section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+.para3 {
+text-align: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    font-size: large;
+    font-style: italic;
+}
+
+.logos img {
+    height: 35px;
+    opacity: 0.8;
+}
+.www {
+    font-size:80px;
+    font-style: italic;
+}
+.signup-section {
+    background: #d1d0d0;
+    padding: 60px 20px;
+    margin-top: 40px;margin-right:0;
+}
+
+.signup-section h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.form-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type="email"] {
+    width: 260px;
+    padding: 12px 15px;
+    border: 1px solid #d0d4d9;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button {
+    background: #0065ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #0053d6;
+}
+
+.policy-text {
+    margin-top: 15px;
+    text-align: center;
+    color: #555;
+}
+
+.policy-text a {
+    color: #0055cc;
+    text-decoration: none;
+}
+
+
+.footer {
+    padding: 40px 50px;
+    color: #ffffff;
+    background-color: rgb(32, 32, 83);
+}
+
+.footer-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px;
+}
+
+.footer-item {
+    flex: 1;
+}
+
+.logo-block {
+    flex: 1.2; 
+}
+
+.trello-logo {
+    width: 150px;
+    margin-bottom: 12px;
+}
+
+.login {
+    font-size: 25px;
+    color: white;
+}
+
+
+.footer-item h4 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+}
+
+.footer-item p {
+    margin: 0;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,0.2);
+    margin: 30px 0;
+}
+
+
+.footer-bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.language {
+    font-size: 14px;
+}
+
+.legal a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.legal span {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.social .icon {
+    margin-left: 16px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 830px)
+{   .footer {
+}
+    .footer-row {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .footer-bottom-row {
+        flex-wrap: wrap;
+        gap: 15px;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 830px) {
+   .nav2 {
+    display: none;
+
+  }
+}
+
+@media screen and (min-width: 1306px) {
+   .paragraph {
+    text-align: center;
+
+  }
+}
+@media screen and (max-width: 800px) {
+   .wrapper {
+    display: block;
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+   .sec1 {
+    display: block;
+  }
+  }
+
+@media screen and (max-width: 800px) {
+  .sec2 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+   .page-wrapper {
+    display: block;
+
+   }
+    .card{
+        display: block;
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .trello-section {
+    display: block;
+  }
+  .cards {
+    display: block;  
+
+  }
+}
+@media screen and (max-width: 800px) {
+  .logo-section {
+    display: block;
+  }
+  .signup-section {
+    display: block;
+      
+
+  }
+}
