@@ -447,7 +447,7 @@ hr {
 
 
 @media (max-width: 830px)
-{   .footer { object-fit:cover;
+{   .footer {
 }
     .footer-row {
         flex-wrap: wrap;
@@ -525,3 +525,4 @@ hr {
   }
 
 }
+
